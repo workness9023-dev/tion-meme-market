@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="TION AI logo">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="430" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e5ff9a"/>
+      <stop offset=".48" stop-color="#cbff51"/>
+      <stop offset="1" stop-color="#86b82c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="38%" cy="28%" r="75%">
+      <stop stop-color="#fff" stop-opacity=".78"/>
+      <stop offset=".42" stop-color="#eaffbc" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#cbff51" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#0b0d08" flood-opacity=".48"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#171914"/>
+  <circle cx="256" cy="256" r="196" fill="url(#bg)" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="196" fill="url(#glow)"/>
+  <g fill="none" stroke="#4d6420" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".48">
+    <path d="M256 60v54M256 398v54M60 256h54M398 256h54"/>
+    <path d="M117 117l38 38M357 357l38 38M395 117l-38 38M155 357l-38 38"/>
+  </g>
+  <g fill="#5d7a24">
+    <circle cx="256" cy="60" r="13"/><circle cx="256" cy="452" r="13"/>
+    <circle cx="60" cy="256" r="13"/><circle cx="452" cy="256" r="13"/>
+  </g>
+  <path d="M155 148h202v73h-63v143h-76V221h-63z" fill="#171914"/>
+  <path d="M181 174h150v21h-61v143h-28V195h-61z" fill="#f6ffd7" opacity=".95"/>
+  <g fill="#171914">
+    <circle cx="256" cy="256" r="18"/>
+    <circle cx="256" cy="256" r="7" fill="#cbff51"/>
+  </g>
+  <path d="M256 238v-43M256 274v43M238 256h-43M274 256h43" stroke="#cbff51" stroke-width="10" stroke-linecap="round"/>
+</svg>
